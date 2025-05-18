@@ -49,6 +49,7 @@ In Minesweeper, each cell is represented as a variable. The value of this variab
 - Ensure the libraries are located in the `libraries/` directory as specified in the `Makefile`.
 
 ## Demo
+Demo of solver showing iterative progression of board expansion:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/76b2934a-f0e4-4318-90e7-452c38a98372" alt="Demo" width="400">
 </p>
