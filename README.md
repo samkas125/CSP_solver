@@ -47,3 +47,8 @@ In Minesweeper, each cell is represented as a variable. The value of this variab
 - **Armadillo 14.2.2**: A C++ linear algebra library.
 - **SFML 2.6.2**: A multimedia library for graphical interface support.
 - Ensure the libraries are located in the `libraries/` directory as specified in the `Makefile`.
+
+## Demo
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/76b2934a-f0e4-4318-90e7-452c38a98372" alt="Demo" width="400">
+</p>
