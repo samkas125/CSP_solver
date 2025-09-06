@@ -4,7 +4,7 @@
 CXX = g++
 
 # Compiler flags
-CXXFLAGS = -I libraries/armadillo-14.2.2/include -I libraries/SFML-2.6.2/include
+CXXFLAGS = -I libraries/armadillo-14.2.2/include -I libraries/SFML-2.6.2/include -I include
 
 # Linker flags
 LDFLAGS = -L libraries/SFML-2.6.2/lib -lsfml-graphics -lsfml-window -lsfml-system
@@ -13,7 +13,8 @@ LDFLAGS = -L libraries/SFML-2.6.2/lib -lsfml-graphics -lsfml-window -lsfml-syste
 TARGET = minesweeper_solver
 
 # Source files
-SRCS = gui.cpp minesweeper_solve.cpp minesweeper_class.cpp arma_helper.cpp
+SRCS = src/gui.cpp src/minesweeper_solve.cpp src/minesweeper_class.cpp include/arma_helper.cpp \
+       include/two_way_dict.cpp include/equation_builder.cpp include/rref_processor.cpp src/minesweeper_solver.cpp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)
